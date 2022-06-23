@@ -1,0 +1,148 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    background: radial-gradient(58.1% 93.33% at 45.56% 103.59%, #FFDAEB 0%, rgba(255, 255, 255, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, radial-gradient(41.45% 71.33% at 75.24% 23.72%, #EAF2FF 0%, rgba(234, 242, 255, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, radial-gradient(26.51% 53.55% at 3.23% 28.56%, #FFD8C0 0%, rgba(255, 234, 239, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, #FFFFFF;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    height: 98px;
+    padding-left: 124px;
+    padding-right: 146px;
+    background-color: transparent;
+    gap: 20px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    /* identical to box height */
+
+    color: #000000;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+.nav > ul {
+    display: flex;
+    gap: 51px;
+}
+
+.btn-nav {
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+}
+
+.btn-order {
+    height: 54px;
+    width: 154px;
+    min-width: 100px;
+
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: #ffffff;
+    background: #ff9f50;
+}
+
+.main-header {
+    font-family: "Oranienbaum";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 76px;
+    line-height: 88px;
+
+    color: #000000;
+}
+
+.main {
+    height: calc(100vh - 98px);
+    position: relative;
+    padding-top: 94px;
+    display: flex;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    padding-left: 124px;
+    z-index: 999;
+}
+
+.main-header {
+    width: 561px;
+    padding-bottom: 38px;
+    font-family: "Oranienbaum";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 76px;
+    line-height: 88px;
+
+    color: #000000;
+}
+
+.main-description {
+    width: 461px;
+    padding-bottom: 21px;
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 33px;
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+}
+
+.image-main {
+    height: 704px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.image-main > img {
+    height: 100%;
+}
